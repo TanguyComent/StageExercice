@@ -1,0 +1,112 @@
+body
+{
+	margin: 0px;
+}
+
+/*image block START*/
+
+.img
+{
+	float: left;
+	width: 53%;
+	height: 500px;
+}
+
+#montagne
+{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+/*image block END*/
+
+
+/*prg block START*/
+
+#prg
+{
+	margin-left: 10px;
+}
+
+/*prg block END*/
+
+
+/*block texte START*/
+
+.texte
+{
+	background: #1E90FF;
+	width: 47%;
+	height: 500px;
+	float: right;
+}
+
+.para
+{
+	font-size: 135%;
+	text-align: center left;
+}
+
+.bouton
+{
+	background-color: #4682B4;
+	color: white;
+	border: solid #4682B4;
+	border-radius: 20px;
+	width: 100px;
+	height: 50px;
+	box-shadow: 10px 5px 5px black;
+}
+.bouton:hover
+{
+	color: black;
+	background-color: blue;
+	color: white;
+	border: solid blue;
+	border-radius: 20px;
+	box-shadow: none;
+}
+/*block texte END*/
+
+
+/*title block START*/
+
+#titre
+{
+	margin-left: 10px;
+	font-size: 110%;
+}
+
+/*title block END*/
+
+@media screen and (max-width: 800px)
+{
+	.img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	#montagne
+	{
+		object-position: center;
+		height: 250px;
+	}
+
+	.texte
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.para
+	{
+		font-size: 80%;
+	}
+
+	#titre
+	{
+		font-size: 80%;
+	}
+}
